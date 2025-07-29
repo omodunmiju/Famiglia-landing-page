@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact FamilyHub - Get in touch with our support team for help with your family management app.">
+    <meta name="keywords" content="contact, support, help, FamilyHub contact">
+    <meta name="author" content="FamilyHub Team">
+    <meta name="robots" content="index, follow">
+    
+    <title>Contact Us - FamilyHub</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="FamilyHub Home">
+                <img src="logo.png" alt="Famiglia in Campo - Per un futuro migliore" class="logo-image">
+                <span class="logo-text">FamilyHub</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="index.html#features" role="menuitem">Features</a></li>
+                <li role="none"><a href="index.html#newborn" role="menuitem">Newborn Care</a></li>
+                <li role="none"><a href="index.html#pets" role="menuitem">Pet Care</a></li>
+                <li role="none"><a href="index.html#rewards" role="menuitem">Rewards</a></li>
+                <li role="none"><a href="help-center.html" role="menuitem">Help</a></li>
+                <li role="none"><a href="index.html#download" class="btn btn-primary" role="menuitem">Download App</a></li>
+            </ul>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main" class="contact-main">
+        <section class="contact-header">
+            <div class="container">
+                <div class="contact-header-content fade-in">
+                    <h1>Contact Us</h1>
+                    <p class="contact-subtitle">We're here to help! Get in touch with our friendly support team</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-section fade-in">
+                        <h2>Send us a message</h2>
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required aria-describedby="name-error">
+                                <span id="name-error" class="error-message" role="alert"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required aria-describedby="email-error">
+                                <span id="email-error" class="error-message" role="alert"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required aria-describedby="subject-error">
+                                    <option value="">Select a topic</option>
+                                    <option value="general">General Question</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="billing">Billing & Subscriptions</option>
+                                    <option value="feature">Feature Request</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="privacy">Privacy & Security</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span id="subject-error" class="error-message" role="alert"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required aria-describedby="message-error" placeholder="Please describe your question or issue in detail..."></textarea>
+                                <span id="message-error" class="error-message" role="alert"></span>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter">I'd like to receive updates about FamilyHub features and tips</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-section fade-in">
+                        <h2>Other ways to reach us</h2>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📧</div>
+                                <h3>Email Support</h3>
+                                <p><a href="mailto:support@familyhub.com">support@familyhub.com</a></p>
+                                <p class="method-note">We typically respond within 24 hours</p>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">📞</div>
+                                <h3>Phone Support</h3>
+                                <p><a href="tel:+1234">+1 (234) </a></p>
+                                <p class="method-note">Monday - Friday, 9 AM - 6 PM EST</p>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">💬</div>
+                                <h3>Live Chat</h3>
+                                <p>Available in the app</p>
+                                <p class="method-note">Monday - Friday, 9 AM - 9 PM EST</p>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">📍</div>
+                                <h3>Office Address</h3>
+                                <address>
+                                    Via Gabriele logrillo<br>
+                                    10 Turi 70010 Bari<br>
+                                    Italy
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h3>Follow us on social media</h3>
+                            <div class="social-links">
+                                <a href="https://facebook.com/familyhub" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                                    <span aria-hidden="true">📘</span>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://instagram.com/familyhub" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                                    <span aria-hidden="true">📷</span>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="https://twitter.com/familyhub" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">
+                                    <span aria-hidden="true">🐦</span>
+                                    <span>Twitter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="response-times">
+            <div class="container">
+                <div class="response-card fade-in">
+                    <h2>Our Response Times</h2>
+                    <div class="response-grid">
+                        <div class="response-item">
+                            <h3>General Inquiries</h3>
+                            <p>Within 24 hours</p>
+                        </div>
+                        <div class="response-item">
+                            <h3>Technical Support</h3>
+                            <p>Within 12 hours</p>
+                        </div>
+                        <div class="response-item">
+                            <h3>Urgent Issues</h3>
+                            <p>Within 4 hours</p>
+                        </div>
+                        <div class="response-item">
+                            <h3>Billing Questions</h3>
+                            <p>Within 8 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <section class="footer-section">
+                    <h3>FamilyHub</h3>
+                    <p>Inspired by the values of "Famiglia in Campo - Per un futuro migliore", FamilyHub is the complete family management solution that brings everyone together through smart organization and meaningful connections.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/familyhub" aria-label="Follow us on Facebook" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">📘</span>
+                        </a>
+                        <a href="https://instagram.com/familyhub" aria-label="Follow us on Instagram" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">📷</span>
+                        </a>
+                        <a href="https://twitter.com/familyhub" aria-label="Follow us on Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">🐦</span>
+                        </a>
+                    </div>
+                </section>
+                
+                <section class="footer-section">
+                    <h3>Features</h3>
+                    <nav aria-label="Features navigation">
+                        <ul class="footer-links">
+                            <li><a href="index.html#features">Family Calendar</a></li>
+                            <li><a href="index.html#features">Expense Tracking</a></li>
+                            <li><a href="index.html#newborn">Newborn Care</a></li>
+                            <li><a href="index.html#pets">Pet Management</a></li>
+                            <li><a href="index.html#rewards">Rewards System</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section class="footer-section">
+                    <h3>Support</h3>
+                    <nav aria-label="Support navigation">
+                        <ul class="footer-links">
+                            <li><a href="help-center.html">Help Center</a></li>
+                            <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="accessibility.html">Accessibility</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section class="footer-section">
+                    <h3>Connect</h3>
+                    <address class="footer-contact">
+                        <p><a href="mailto:famigliadesk@gmail.com">famigliadesk@gmail.com</a></p>
+                        <p><a href="tel:+1234">+1 (234) </a></p>
+                        <p>Via Gabriele logrillo<br>10 Turi 70010 Bari, <br> Italy</p>
+                    </address>
+                </section>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FamilyHub. All rights reserved. Made with <span aria-label="love">❤️</span> for families everywhere.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

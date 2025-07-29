@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FamilyHub - The ultimate family management app for organizing schedules, expenses, tasks, and creating lasting memories together.">
+    <meta name="keywords" content="family app, family calendar, expense tracker, task management, newborn care, pet care">
+    <meta name="author" content="FamilyHub Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="FamilyHub - Your Complete Family Management Solution">
+    <meta property="og:description" content="Organize your family life with shared calendars, expense tracking, newborn care, pet management, and rewards system.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://familyhub.com">
+    <meta property="og:image" content="assets/logo.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FamilyHub - Your Complete Family Management Solution">
+    <meta name="twitter:description" content="Organize your family life with shared calendars, expense tracking, newborn care, pet management, and rewards system.">
+    <meta name="twitter:image" content="assets/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <title>FamilyHub - Your Complete Family Management Solution</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+    
+    <!-- ===== HEADER & NAVIGATION ===== -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="FamilyHub Home">
+                <img src="logo.png" alt="Famiglia in Campo - Per un futuro migliore" class="logo-image">
+                <span class="logo-text">FamilyHub</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="#features" role="menuitem">Features</a></li>
+                <li role="none"><a href="#newborn" role="menuitem">Newborn Care</a></li>
+                <li role="none"><a href="#pets" role="menuitem">Pet Care</a></li>
+                <li role="none"><a href="#rewards" role="menuitem">Rewards</a></li>
+                <li role="none"><a href="help-center.html" role="menuitem">Help</a></li>
+                <li role="none"><a href="#download" class="btn btn-primary" role="menuitem">Download App</a></li>
+            </ul>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" role="banner">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text fade-in">
+                        <h1>Organize Your <span class="highlight">Family Life</span> Like Never Before</h1>
+                        <p class="hero-description">Inspired by the values of "Famiglia in Campo - Per un futuro migliore", FamilyHub is the complete family management solution that brings everyone together. From shared calendars to pet care, newborn tracking to rewards - everything your family needs in one beautiful app.</p>
+                        <div class="hero-buttons">
+                            <a href="#download" class="btn btn-primary btn-large" aria-describedby="cta-description">
+                                <span>Get Started Free</span>
+                                <span class="btn-icon" aria-hidden="true">→</span>
+                            </a>
+                            <a href="#features" class="btn btn-secondary btn-large">
+                                <span>Explore Features</span>
+                            </a>
+                        </div>
+                        <p id="cta-description" class="sr-only">Start your free trial of FamilyHub today</p>
+                    </div>
+                    <div class="hero-image fade-in">
+                        <img src="happy family.jpg" alt="Happy family using FamilyHub app together on various devices" loading="eager" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Section -->
+        <section id="features" class="section features-section" role="region" aria-labelledby="features-heading">
+            <div class="container">
+                <header class="section-header fade-in">
+                    <h2 id="features-heading">Everything Your Family Needs</h2>
+                    <p class="section-description">Comprehensive tools designed to simplify family life and strengthen connections</p>
+                </header>
+                
+                <div class="features-grid">
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">📅</div>
+                        <h3>Shared Family Calendar</h3>
+                        <p>View everyone's commitments in one place. Add events, tasks, and deadlines with smart notifications to keep the whole family synchronized.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">💰</div>
+                        <h3>Family Expense Tracker</h3>
+                        <p>Monitor and divide family expenses effortlessly. Record receipts, track transactions, and maintain a clear overview of your family budget.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">🔔</div>
+                        <h3>Smart Notifications</h3>
+                        <p>Never miss important events with personalized reminders. Get alerts for tasks, deadlines, appointments, and family activities.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">✅</div>
+                        <h3>Task Management</h3>
+                        <p>Assign household tasks and errands to family members. Track completion with check-in functionality and maintain accountability.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">📝</div>
+                        <h3>Notes & Shopping Lists</h3>
+                        <p>Shared space for notes, ideas, and shopping lists. Add items instantly to avoid forgetting important things.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">🏥</div>
+                        <h3>Medical & School Appointments</h3>
+                        <p>Keep track of medical appointments and school events. Get timely notices for check-ups and important meetings.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">💬</div>
+                        <h3>Family Chat</h3>
+                        <p>Integrated communication channel with emoticons and sharing features to make family discussions fun and engaging.</p>
+                    </article>
+                    
+                    <article class="feature-card card fade-in">
+                        <div class="card-icon" aria-hidden="true">📚</div>
+                        <h3>E-Library</h3>
+                        <p>Digital library section where family members can read books, share recommendations, and track reading progress together.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Features Section -->
+        <section class="section special-features" role="region" aria-labelledby="special-features-heading">
+            <div class="container">
+                <header class="section-header fade-in">
+                    <h2 id="special-features-heading">Specialized Care Features</h2>
+                    <p class="section-description">Dedicated sections for your most precious family members</p>
+                </header>
+                
+                <div class="special-features-grid">
+                    <!-- Newborn Care -->
+                    <article class="special-feature fade-in" id="newborn">
+                        <header class="special-feature-header">
+                            <h3>
+                                <span class="special-feature-icon" aria-hidden="true">👶</span>
+                                Newborn Care Center
+                            </h3>
+                        </header>
+                        <div class="special-feature-content">
+                            <ul class="feature-list" role="list">
+                                <li>Activity tracking (diaper changes, meals, sleep times)</li>
+                                <li>Automatic care reminders (vaccinations, pediatric visits)</li>
+                                <li>First Times Diary for precious memories</li>
+                                <li>Breastfeeding alarms and timers</li>
+                                <li>Sleep pattern logging and analysis</li>
+                                <li>Emergency reporting button</li>
+                                <li>Disease diary with health parameters</li>
+                                <li>Personalized tips based on baby's age</li>
+                                <li>Family sharing of growth updates</li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                    <!-- Pet Care -->
+                    <article class="special-feature fade-in" id="pets">
+                        <header class="special-feature-header">
+                            <h3>
+                                <span class="special-feature-icon" aria-hidden="true">🐕</span>
+                                Pet Care Management
+                            </h3>
+                        </header>
+                        <div class="special-feature-content">
+                            <ul class="feature-list" role="list">
+                                <li>Personalized pet profiles with photos</li>
+                                <li>Veterinary appointment reminders</li>
+                                <li>Physical activity and walk tracking</li>
+                                <li>Food catalog and diet monitoring</li>
+                                <li>Funny moments photo sharing</li>
+                                <li>Pet community forum</li>
+                                <li>Health monitoring and medical records</li>
+                                <li>Virtual badges and rewards system</li>
+                                <li>Emergency veterinary contacts</li>
+                                <li>Links to pet care resources</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rewards System Section -->
+        <section class="section rewards" role="region" aria-labelledby="rewards-heading">
+            <div class="container">
+                <header class="section-header fade-in">
+                    <h2 id="rewards-heading">Family Rewards & Recognition</h2>
+                    <p class="section-description">Motivate and celebrate family participation with our comprehensive rewards system</p>
+                </header>
+                
+                <div class="rewards-grid">
+                    <article class="reward-item fade-in">
+                        <div class="reward-icon" aria-hidden="true">🏆</div>
+                        <h3>Points & Leaderboards</h3>
+                        <p>Weekly changing leaderboards create friendly competition and encourage active app usage among family members.</p>
+                    </article>
+                    
+                    <article class="reward-item fade-in">
+                        <div class="reward-icon" aria-hidden="true">🎯</div>
+                        <h3>Collective Goals</h3>
+                        <p>Set family goals and earn rewards when everyone participates, fostering collaboration and teamwork.</p>
+                    </article>
+                    
+                    <article class="reward-item fade-in">
+                        <div class="reward-icon" aria-hidden="true">🎉</div>
+                        <h3>Family Free Day</h3>
+                        <p>Earn a special day off from household tasks when the family reaches set goals through the app.</p>
+                    </article>
+                    
+                    <article class="reward-item fade-in">
+                        <div class="reward-icon" aria-hidden="true">⭐</div>
+                        <h3>Virtual Badges</h3>
+                        <p>Personalized virtual badges recognize individual achievements and encourage goal completion.</p>
+                    </article>
+                    
+                    <article class="reward-item fade-in">
+                        <div class="reward-icon" aria-hidden="true">🎬</div>
+                        <h3>Quality Time Rewards</h3>
+                        <p>Earn special family activities like movie nights, trips, or dinner outings as participation rewards.</p>
+                    </article>
+                    
+                    <article class="reward-item fade-in">
+                        <div class="reward-icon" aria-hidden="true">👑</div>
+                        <h3>Special Privileges</h3>
+                        <p>Grant special privileges like choosing dinner menus or setting daily rules to recognize involvement.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="download" class="section cta" role="region" aria-labelledby="cta-heading">
+            <div class="container fade-in">
+                <header class="cta-header">
+                    <h2 id="cta-heading">Ready to Transform Your Family Life?</h2>
+                    <p class="cta-description">Join thousands of families who have already simplified their lives with FamilyHub. Download now and start your journey to better family organization.</p>
+                </header>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-large" aria-label="Download FamilyHub for iOS devices">
+                        <span class="btn-icon" aria-hidden="true">📱</span>
+                        <span>Download for iOS</span>
+                    </a>
+                    <a href="#" class="btn btn-secondary btn-large" aria-label="Download FamilyHub for Android devices">
+                        <span class="btn-icon" aria-hidden="true">🤖</span>
+                        <span>Download for Android</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <section class="footer-section">
+                    <h3>FamilyHub</h3>
+                    <p>Inspired by the values of "Famiglia in Campo - Per un futuro migliore", FamilyHub is the complete family management solution that brings everyone together through smart organization and meaningful connections.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/familyhub" aria-label="Follow us on Facebook" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">📘</span>
+                        </a>
+                        <a href="https://instagram.com/familyhub" aria-label="Follow us on Instagram" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">📷</span>
+                        </a>
+                        <a href="https://twitter.com/familyhub" aria-label="Follow us on Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <span aria-hidden="true">🐦</span>
+                        </a>
+                    </div>
+                </section>
+                
+                <section class="footer-section">
+                    <h3>Features</h3>
+                    <nav aria-label="Features navigation">
+                        <ul class="footer-links">
+                            <li><a href="#features">Family Calendar</a></li>
+                            <li><a href="#features">Expense Tracking</a></li>
+                            <li><a href="#newborn">Newborn Care</a></li>
+                            <li><a href="#pets">Pet Management</a></li>
+                            <li><a href="#rewards">Rewards System</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section class="footer-section">
+                    <h3>Support</h3>
+                    <nav aria-label="Support navigation">
+                        <ul class="footer-links">
+                            <li><a href="help-center.html">Help Center</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="accessibility.html">Accessibility</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                
+                <section class="footer-section">
+                    <h3>Connect</h3>
+                    <address class="footer-contact">
+                        <p><a href="mailto:famigliadesk@gmail.com">famigliadesk@gmail.com</a></p>
+                        <p><a href="tel:+1234567890">+1 (234) </a></p>
+                        <p>Via Gabriele logrillo<br>10 Turi 70010 Bari, Italy</p>
+                    </address>
+                </section>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FamilyHub. All rights reserved. Made with <span aria-label="love">love</span> for families everywhere.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "FamilyHub",
+        "description": "Complete family management app for organizing schedules, expenses, tasks, and creating lasting memories together.",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "2547"
+        }
+    }
+    </script>
+</body>
+</html>
